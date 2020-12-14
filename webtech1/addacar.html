@@ -1,0 +1,29 @@
+<script src="js/addNewCar.js" type="text/javascript"></script>
+<form method="post">
+	<table style="border: none;">
+		<tr>
+			<td>Autó név: </td><td><input name="carname" type="text" required="required"></td>
+		</tr>
+		<tr>
+			<td>Gyártó: </td><td><select name="carmanufacturer" id="manufacturerselect"></select></td>
+		</tr>
+		<tr>
+			<td>Év: </td><td><input name="caryear" type="number" required="required"></td>
+		</tr>
+		<tr>
+			<td>Szin: </td><td><input name="carcolor" type="text" required="required""></td>
+		</tr>
+		<tr>
+			<td>Lóerő: </td><td><input name="carhorsepower" type="number" required="required"></td>
+		</tr>
+		<tr>
+			<td>Fogyasztás: </td><td><input name="carconsumption" type="text" required="required"></td>
+		</tr>
+		<tr>
+			<td>Elérhetőség: </td><td><input name="caravailable" type="number" required="required"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="button" value="Hozzaad" onclick="addCar()"></td>
+		</tr>
+	</table>
+</form>
